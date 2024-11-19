@@ -6,7 +6,6 @@ using namespace std;
  
 void GAMENUMBER1();
 void GAMENUMBER2();
-void GAMENUMBER3();
 void mainMenu() {
     int choice;
     while (true) {
@@ -22,9 +21,8 @@ void mainMenu() {
                 cout << "\nMini-Game Menu:" << endl;
                 cout << "1. GAMENUMBER1" << endl;
                 cout << "2. GAMENUMBER2" << endl;
-                cout << "3. GAMENUMBER3" << endl;
-                cout << "4. Back to Main Menu" << endl;
-                cout << "Enter your choice (1-4): ";
+                cout << "3. Back to Main Menu" << endl;
+                cout << "Enter your choice (1-3): ";
                 cin >> miniGameChoice;
                 switch (miniGameChoice) {
                     case 1:
@@ -34,14 +32,11 @@ void mainMenu() {
                         GAMENUMBER2();
                         break;
                     case 3:
-                        GAMENUMBER3();
-                        break;
-                    case 4:
                         break; // Go back to the main menu
                     default:
                         cout << "Invalid choice. Please try again." << endl;
                 }
-                if (miniGameChoice == 4) {
+                if (miniGameChoice == 3) {
                     break; // Exit mini-game menu
                 }
             }
@@ -59,10 +54,6 @@ void GAMENUMBER1() {
 }
 void GAMENUMBER2() {
     cout << "INPUT THE SECOND GAME HERE" << endl;
-}
-void GAMENUMBER3() {
-    cout << "INPUT THE THIRD GAME HERE" << endl;
- 
 }
 int main() {
     mainMenu();
