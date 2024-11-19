@@ -1,50 +1,69 @@
 #include <iostream>
+//#include <cstdlib> recommended to be used
+//#include <ctime> recommended to be used
 using namespace std;
 
-void banner(){
-    cout << " _____ _____ ____  _____    _____ _____ _____ _____ _____ " << endl;
-    cout << "|     |     |    \\|   __|  |   __|     | __  |   __|   __|" << endl;
-    cout << "|   --|  |  |  |  |   __|  |   __|  |  |    -|  |  |   __|" << endl;
-    cout << "|_____|_____|____/|_____|  |__|  |_____|__|__|_____|_____|" << endl;
-}
-
-
-int main(){
-    banner();
+ 
+void GAMENUMBER1();
+void GAMENUMBER2();
+void GAMENUMBER3();
+void mainMenu() {
     int choice;
-    cout << endl;
-    cout << "----------------------------------------------\n";
-    cout << "|                                            |\n";
-    cout << "|    1. Game 1                               |\n";
-    cout << "|    2. Game 2                               |\n";
-    cout << "|    3. Game 3                               |\n";
-    cout << "|    0. Exit                                 |\n";
-    cout << "|                                            |\n";
-    cout << "|                                            |\n";
-    cout << "----------------------------------------------\n";
-
-
-    cout << "Select your choice: ";
-    cin >> choice;
-    if (choice >= 3) {
-        cout << "Invalid input!\n";
-        main();
-    } else if (choice == 0){
-        //break;
-        return 0;
+    while (true) {
+        cout << "Welcome to the Mini-Game Menu!" << endl;
+        cout << "Please choose an option:" << endl;
+        cout << "1. Play Mini-Games" << endl;
+        cout << "2. Exit" << endl;
+        cout << "Enter your choice (1 or 2): ";
+        cin >> choice;
+        if (choice == 1) {
+            int miniGameChoice;
+            while (true) {
+                cout << "\nMini-Game Menu:" << endl;
+                cout << "1. GAMENUMBER1" << endl;
+                cout << "2. GAMENUMBER2" << endl;
+                cout << "3. GAMENUMBER3" << endl;
+                cout << "4. Back to Main Menu" << endl;
+                cout << "Enter your choice (1-4): ";
+                cin >> miniGameChoice;
+                switch (miniGameChoice) {
+                    case 1:
+                        GAMENUMBER1();
+                        break;
+                    case 2:
+                        GAMENUMBER2();
+                        break;
+                    case 3:
+                        GAMENUMBER3();
+                        break;
+                    case 4:
+                        break; // Go back to the main menu
+                    default:
+                        cout << "Invalid choice. Please try again." << endl;
+                }
+                if (miniGameChoice == 4) {
+                    break; // Exit mini-game menu
+                }
+            }
+        } else if (choice == 2) {
+            cout << "Thank you for playing! Goodbye!" << endl;
+            break; // Exit the program
+        } else {
+            cout << "Invalid choice. Please try again." << endl;
+        }
     }
-    switch(choice){
-        case 1:{
-            cout << "Choice 1 selected\n";
-            main();
-        }
-        case 2:{
-            cout << "Choice 2 selected\n";
-            main();
-        }
-        case 3:{
-            cout << "Choice 3 selected\n";
-            main();
-        }
-    }
+}
+void GAMENUMBER1() {
+    cout << "INPUT THE FIRST GAME HERE" << endl;
+ 
+}
+void GAMENUMBER2() {
+    cout << "INPUT THE SECOND GAME HERE" << endl;
+}
+void GAMENUMBER3() {
+    cout << "INPUT THE THIRD GAME HERE" << endl;
+ 
+}
+int main() {
+    mainMenu();
 }
