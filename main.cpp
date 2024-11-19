@@ -58,7 +58,33 @@ void GAMENUMBER1() {
  
 }
 void GAMENUMBER2() {
-    cout << "INPUT THE SECOND GAME HERE" << endl;
+    int score = 0;
+    char playAgain;
+    do {
+        int num1 = rand() % 100;
+        int num2 = rand() % 100;
+        char operation = (rand() % 2) ? '+' : '-';
+        int answer;
+
+        cout << "Solve the following: " << num1 << " " << operation << " " << num2 << " = ";
+        cin >> answer;
+
+        int correctAnswer = (operation == '+') ? (num1 + num2) : (num1 - num2);
+
+        if (answer == correctAnswer) {
+            cout << "Correct! Your score: " << ++score << endl;
+        } else {
+            cout << "Incorrect! The correct answer was: " << correctAnswer << endl;
+        }
+
+        cout << "Do you want to solve another one? (y/n): ";
+        cin >> playAgain;
+
+    } while (playAgain == 'y' || playAgain == 'Y');
+
+    cout << "Thank you for playing! Your final score: " << score << endl;
+
+    mainMenu();
 }
 void GAMENUMBER3() {
     cout << "INPUT THE THIRD GAME HERE" << endl;
