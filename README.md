@@ -8,7 +8,7 @@ This is our project where we made some games to learn math and practise your eng
 - [@nhdimitrov23](https://github.com/nhdimitrov23) - Backend developer
 - [@HAGrozdev23](https://github.com/Hristiyan1423) - Desginer
 
-## Documentation
+## Documentation (soon to be included)
 - [Presentation]()
 - [Documentation]()
 
