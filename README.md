@@ -1,6 +1,17 @@
-## About 
-We are CodeForge, this is our project where we made some games to learn more about math and practice your english using various games like "Hangman", "Word Scramble" and so on! 
+## About
+We are CodeForge, this is our project where we made games to help you learn more about math and practice your English skills using various games like "Hangman", "Wordle", and so on!
 
+## Game Descriptions
+### 1. Hangman
+* Input a single letter at a time to guess the word.
+* You have a limited number of attempts, which depends on the chosen difficulty level.
+* Choose between Easy, Medium, or Hard difficulty to customize your challenge.
+
+### 2. Wordle
+* Guess the correct word within a limited number of attempts.
+* The `*` signifies a correct letter, but it is not in the correct place.
+* The `_` signifies that the letter is not included in the word.
+* Correctly guessed letters in the correct position remain visible in the word.
 
 ## Authors
 - [@BMGeorgiev23](https://github.com/BMGeorgiev23) - Scrum Trainer
@@ -12,5 +23,6 @@ We are CodeForge, this is our project where we made some games to learn more abo
 - [Presentation]()
 - [Documentation]()
 
-## Apps used
-<img src="https://icons.iconarchive.com/icons/arturo-wibawa/akar/48/github-icon.png"> <img src="https://media.discordapp.net/attachments/1147111065277186059/1308509710676398110/pngwing.com.png?ex=673e3421&is=673ce2a1&hm=104b28430aeb8d7b1b8e2fdb577767c15f55645f5cc2a629900308897055aaa3&=&format=webp&quality=lossless"> <img src="https://icons.iconarchive.com/icons/bootstrap/bootstrap/48/Bootstrap-microsoft-teams-icon.png"> <img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png"> <img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png">
+## Tools Used
+<img src="https://icons.iconarchive.com/icons/arturo-wibawa/akar/48/github-icon.png" alt="Github" width="48"> <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VS Code" width="48"> <img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/48/Microsoft-Visual-Studio-icon.png" alt="Visual Studio" width="48"> <img src="https://icons.iconarchive.com/icons/bootstrap/bootstrap/48/Bootstrap-microsoft-teams-icon.png" alt="MS Teams" width="48"> <img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="PowerPoint" width="48"> <img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="MS Word" width="48">
+
