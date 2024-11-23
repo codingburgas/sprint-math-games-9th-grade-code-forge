@@ -12,84 +12,111 @@ void GAMENUMBER3();
 
 void displayHangman(int wrongAttempts) {
     if (wrongAttempts == 0) { 
-            cout << "   _____" << endl; 
-            cout << "  |     " << endl; 
-            cout << "  |     " << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
+            cout << "                   __________   " << endl;
+            cout << "                  |           " << endl;
+            cout << "                  |           " << endl;
+            cout << "                  |           " << endl;
+            cout << "            ______|______     " << endl;
+            cout << "          /       |     /|   " << endl;
+            cout << "         /             / | " << endl;
+            cout << "        /_____________/  |" << endl;
+            cout << "        |             | / " << endl;
+            cout << "        |_____________|/ " << endl; 
         } else if (wrongAttempts == 1) { 
-            cout << "   _____" << endl; 
-            cout << "  |     |" << endl; 
-            cout << "  |     " << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
+            cout << "                   __________   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |             " << endl;
+            cout << "                  |            " << endl;
+            cout << "            ______|______    " << endl;
+            cout << "          /       |     /|   " << endl;
+            cout << "         /             / | " << endl;
+            cout << "        /_____________/  |" << endl;
+            cout << "        |             | / " << endl;
+            cout << "        |_____________|/ " << endl;  
         } 
 else if (wrongAttempts == 2) { 
-            cout << "   _____" << endl; 
-            cout << "  |     |" << endl; 
-            cout << "  |     O" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
+            cout << "                   __________   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |            " << endl;
+            cout << "            ______|______     " << endl;
+            cout << "          /       |     /|   " << endl;
+            cout << "         /             / | " << endl;
+            cout << "        /_____________/  |" << endl;
+            cout << "        |             | / " << endl;
+            cout << "        |_____________|/ " << endl; 
         } 
 else if (wrongAttempts == 3) { 
-            cout << "   _____" << endl; 
-            cout << "  |     |" << endl; 
-            cout << "  |     O" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
+            cout << "                   __________   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |          0   " << endl;
+            cout << "            ______|______     " << endl;
+            cout << "          /       |     /|   " << endl;
+            cout << "         /             / | " << endl;
+            cout << "        /_____________/  |" << endl;
+            cout << "        |             | / " << endl;
+            cout << "        |_____________|/ " << endl; 
         } 
         else if (wrongAttempts == 4) { 
-            cout << "   _____" << endl; 
-            cout << "  |     |" << endl; 
-            cout << "  |     O" << endl; 
-            cout << "  |     |" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
+            cout << "                   __________   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |          0   " << endl;
+            cout << "            ______|______    |  " << endl;
+            cout << "          /       |     /|   " << endl;
+            cout << "         /             / | " << endl;
+            cout << "        /_____________/  |" << endl;
+            cout << "        |             | / " << endl;
+            cout << "        |_____________|/ " << endl; 
         } 
         else if (wrongAttempts == 5) { 
-            cout << "   _____" << endl; 
-            cout << "  |     |" << endl; 
-            cout << "  |     O" << endl; 
-            cout << "  |    /|" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
+            cout << "                   __________   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |          0   " << endl;
+            cout << "            ______|______   /|  " << endl;
+            cout << "          /       |     /|   " << endl;
+            cout << "         /             / | " << endl;
+            cout << "        /_____________/  |" << endl;
+            cout << "        |             | / " << endl;
+            cout << "        |_____________|/ " << endl; 
         } 
         else if (wrongAttempts == 6) { 
-            cout << "   _____" << endl; 
-            cout << "  |     |" << endl; 
-            cout << "  |     O" << endl; 
-            cout << "  |    /|\\" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
+            cout << "                   __________   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |          0   " << endl;
+            cout << "            ______|______   /|\\  " << endl;
+            cout << "          /       |     /|   " << endl;
+            cout << "         /             / | " << endl;
+            cout << "        /_____________/  |" << endl;
+            cout << "        |             | / " << endl;
+            cout << "        |_____________|/ " << endl; 
         } 
         else if (wrongAttempts == 7) { 
-            cout << "   _____" << endl; 
-            cout << "  |     |" << endl; 
-            cout << "  |     O" << endl; 
-            cout << "  |    /|\\" << endl; 
-            cout << "  |    /" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
+            cout << "                   __________   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |          0   " << endl;
+            cout << "            ______|______   /|\\  " << endl;
+            cout << "          /       |     /|  /| " << endl;
+            cout << "         /             / | " << endl;
+            cout << "        /_____________/  |" << endl;
+            cout << "        |             | / " << endl;
+            cout << "        |_____________|/ " << endl; 
         } 
         else if (wrongAttempts == 8) { 
-            cout << "   _____" << endl; 
-            cout << "  |     |" << endl; 
-            cout << "  |     O" << endl; 
-            cout << "  |    /|\\" << endl; 
-            cout << "  |    / \\" << endl; 
-            cout << "  |" << endl; 
-            cout << "  |" << endl; 
+            cout << "                   __________   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |          |   " << endl;
+            cout << "                  |          0   " << endl;
+            cout << "            ______|______   /|\\  " << endl;
+            cout << "          /       |     /|  /|\\ " << endl;
+            cout << "         /             / | " << endl;
+            cout << "        /_____________/  |" << endl;
+            cout << "        |             | / " << endl;
+            cout << "        |_____________|/ " << endl;
         }
 }
 
@@ -156,7 +183,8 @@ void playHangman(int maxAttempts, const vector<string>& wordList) {
 
     if (wrongAttempts == maxAttempts) {
         displayHangman(wrongAttempts);
-        cout << "You've been hanged! The word was: " << word << endl;
+        cout << "You've been hanged!" << endl;
+        cout << "The word was: " << word << endl;
     }
 }
 
@@ -165,21 +193,22 @@ void mainMenuHangman() {
         cout << "                                                                                                                                           " << endl;
         cout << "                                                                                                                                           " << endl;
         cout << "                                                                                                                                           " << endl;
-        cout << "                           |              __   __  _______  __    _  _______  __   __  _______  __    _                 |                  " << endl;
-        cout << "                           |             |  | |  ||   _   ||  |  | ||       ||  |_|  ||   _   ||  |  | |                |                  " << endl;
-        cout << "                           |             |  |_|  ||  |_|  ||   |_| ||    ___||       ||  |_|  ||   |_| |                |                  " << endl;
-        cout << "                           |             |       ||       ||       ||   | __ |       ||       ||       |                |                  " << endl;
-        cout << "                           |             |   _   ||   _   ||  _    ||   ||  || || || ||   _   ||  _    |                |                  " << endl;
-        cout << "                           |             |  | |  ||  | |  || | |   ||   |_| || ||_|| ||  | |  || | |   |                |                  " << endl;
-        cout << "                           |             |__| |__||__| |__||_|  |__||_______||_|   |_||__| |__||_|  |__|                |                  " << endl;
+        cout << "                           |             ██   ██  █████  ███    ██  ██████  ███    ███  █████  ███    ██                |                  " << endl;
+        cout << "                           |             ██   ██ ██   ██ ████   ██ ██       ████  ████ ██   ██ ████   ██                |                  " << endl;
+        cout << "                           |             ███████ ███████ ██ ██  ██ ██   ███ ██ ████ ██ ███████ ██ ██  ██                |                  " << endl;
+        cout << "                           |             ██   ██ ██   ██ ██  ██ ██ ██    ██ ██  ██  ██ ██   ██ ██  ██ ██                |                  " << endl;
+        cout << "                           |             ██   ██ ██   ██ ██   ████  ██████  ██      ██ ██   ██ ██   ████                |                  " << endl;
         cout << "         __________________|____________________________________________________________________________________________|___________________   " << endl;
         cout << "                           |                                                                                            |                  " << endl;
         cout << "                           |                                                                                            |                  " << endl;
-        cout << "                           |                  WELCOME TO HANGMAN! CHOOSE ONE OF THE FOLLOWING:                          |                  " << endl;
+        cout << "                           |                      WELCOME TO HANGMAN! CHOOSE ONE OF THE FOLLOWING:                      |                  " << endl;
         cout << "                           |                                                                                            |                  " << endl;
         cout << "                           |                                        1. PLAY                                             |                  " << endl;
+        cout << "                           |                                                                                            |                  " << endl;
         cout << "                           |                                        2. RULES                                            |                  " << endl;
-        cout << "                           |                                        3. EXIT                                             |                  " << endl;
+        cout << "                           |                                                                                            |                  " << endl;
+        cout << "                           |                                   3. BACK TO MAIN MENU                                     |                  " << endl;
+        cout << "                           |                                                                                            |                  " << endl;
         cout << "                           |                                                                                            |                  " << endl;
         cout << "                           |                                                                                            |                  " << endl;
         cout << "                           |                                                                                            |                  " << endl;
@@ -204,6 +233,7 @@ void mainMenuHangman() {
 
         if (mainChoice == 1) {
             while (true) {
+                cout << "                        " << endl;
                 cout << "Choose difficulty level:" << endl;
                 cout << "1. Easy (8 attempts, max 6 letters)" << endl;
                 cout << "2. Medium (7 attempts, max 9 letters)" << endl;
@@ -232,6 +262,7 @@ void mainMenuHangman() {
             while (true) {
             cout << "                                                                                                                    " << endl;
             cout << "                                                                                                                    " << endl;
+            cout << "                                                                                                                    " << endl;
             cout << "                                                                                                                     " << endl;
             cout << "                                                                                                                    " << endl;
             cout << "                                     ┌──────────────────────────── ⋆⋅☆⋅⋆ ──────────────────────────────┐                    " << endl;
@@ -239,10 +270,26 @@ void mainMenuHangman() {
             cout << "                    ╒═══════════════════════════════════════════════════════════════════════════════════════════════╕       " << endl;
             cout << "                                                                                                                    " << endl;
             cout << "                                                           RULES OF HANGMAN:                                               " << endl;
+            cout << "                                                                                                                     " << endl;
             cout << "                                           1. You have a limited number of incorrect guesses.                              " << endl;
+            cout << "                                                                                                                     " << endl;
             cout << "                               2. Each time you guess a letter that is not in the word, you lose a chance.                 " << endl;
+            cout << "                                                                                                                     " << endl;
             cout << "                                 3. The game ends when you either guess the word or run out of chances.                    " << endl;
+            cout << "                                                                                                                     " << endl;
             cout << "                                                    Press 0 to return to the main menu.                                    " << endl;
+            cout << "                                                                                                                     " << endl;
+            cout << "                                                                                                                     " << endl;
+            cout << "                                                                  __________                                                            " << endl;
+            cout << "                                                                 |          |                                             " << endl;
+            cout << "                                                                 |          |                                             " << endl;
+            cout << "                                                                 |          0                                            " << endl;
+            cout << "                                                           ______|______   /|\\                                            " << endl;
+            cout << "                                                         /       |     /|  /|\\                                            " << endl;
+            cout << "                                                        /             / |                                              " << endl;
+            cout << "                                                       /_____________/  |                                              " << endl;
+            cout << "                                                       |             | /                                             " << endl;
+            cout << "                                                       |_____________|/                                               " << endl;
             cout << "                                                                                                                     " << endl;
             cout << "                                                                                                                     " << endl;
             cout << "                                                                                                                     " << endl;
@@ -280,6 +327,19 @@ void GAMENUMBER3() {
 void mainMenu() {
     int choice;
     while (true) {
+        cout << "                                                                                        " << endl;
+        cout << "                                                                                        " << endl;
+        cout << "╒══════════════════════════════════════════════════════════════════════════════════════════════╕" << endl;
+        cout << "                                                                                        " << endl;
+        cout << "                                                                                        " << endl;
+        cout << "           ██████  ██████  ██████  ███████ ███████  ██████  ██████   ██████  ███████                " << endl;
+        cout << "           ██     ██    ██ ██   ██ ██      ██      ██    ██ ██   ██ ██       ██          " << endl;
+        cout << "           ██     ██    ██ ██   ██ █████   █████   ██    ██ ██████  ██   ███ █████       " << endl;
+        cout << "           ██     ██    ██ ██   ██ ██      ██      ██    ██ ██   ██ ██    ██ ██            " << endl;
+        cout << "           ██████  ██████  ██████  ███████ ██       ██████  ██   ██  ██████  ███████       " << endl;
+        cout << "                                                                                        " << endl;
+        cout << "                                                                                        " << endl;
+        cout << "╘══════════════════════════════════════════════════════════════════════════════════════════════╛ " << endl;
         cout << "Welcome to the Mini-Game Menu!" << endl;
         cout << "1. Play Mini-Games" << endl;
         cout << "2. Exit" << endl;
