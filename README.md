@@ -24,10 +24,5 @@ We are CodeForge, this is our project where we made games to help you learn more
 - [Documentation]()
 
 ## Tools Used
-<img src="https://icons.iconarchive.com/icons/arturo-wibawa/akar/48/github-icon.png" alt="Github" width="48"> 
-<img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VS Code" width="48">
-<img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/48/Microsoft-Visual-Studio-icon.png" alt="Visual Studio" width="48"> 
-<img src="https://icons.iconarchive.com/icons/bootstrap/bootstrap/48/Bootstrap-microsoft-teams-icon.png" alt="MS Teams" width="48"> 
-<img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="PowerPoint" width="48"> 
-<img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="MS Word" width="48">
+<img src="https://icons.iconarchive.com/icons/arturo-wibawa/akar/48/github-icon.png" alt="Github" width="48"> <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VS Code" width="48"> <img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/48/Microsoft-Visual-Studio-icon.png" alt="Visual Studio" width="48"> <img src="https://icons.iconarchive.com/icons/bootstrap/bootstrap/48/Bootstrap-microsoft-teams-icon.png" alt="MS Teams" width="48"> <img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="PowerPoint" width="48"> <img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="MS Word" width="48">
 
