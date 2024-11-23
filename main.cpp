@@ -4,10 +4,9 @@
 #include <algorithm>
 #include <ctime>
 #include <windows.h>
+#include <cstdlib>
 
 using namespace std;
-
-void GAMENUMBER2();
 void GAMENUMBER3();
 
 void displayHangman(int wrongAttempts) {
@@ -338,9 +337,60 @@ void mainMenuHangman() {
     }
 }
 
-void GAMENUMBER2() {
-    cout << "INPUT THE SECOND GAME HERE" << endl;
+
+void playWordle() {
+    // List of possible words for Wordle
+    vector<string> wordList = { "apple", "grape", "peach", "berry", "table", "badge" };
+    srand(time(0));  // Seed for random number generation
+
+    // Pick a random word from the list
+    string secretWord = wordList[rand() % wordList.size()];
+    string guess;
+    int attempts = 6;
+
+    cout << "Welcome to Wordle!" << endl;
+    cout << "Guess the 5-letter word. You have " << attempts << " attempts." << endl;
+
+    // Main game loop
+    while (attempts > 0) {
+        cout << "\nEnter your guess: ";
+        cin >> guess;
+
+        // Ensure the guess is a valid 5-letter word
+        if (guess.length() != 5) {
+            cout << "Please enter a 5-letter word!" << endl;
+            continue;
+        }
+
+        if (guess == secretWord) {
+            cout << "Congratulations! You've guessed the word correctly!" << endl;
+            break;
+        }
+        else {
+            // Provide feedback on the guess
+            for (int i = 0; i < 5; i++) {
+                if (guess[i] == secretWord[i]) {
+                    cout << guess[i] << " ";  // Correct letter in the correct place
+                }
+                else if (secretWord.find(guess[i]) != string::npos) {
+                    cout << "* ";  // Correct letter, wrong place
+                }
+                else {
+                    cout << "_ ";  // Incorrect letter
+                }
+            }
+            cout << endl;
+            attempts--;
+            cout << "You have " << attempts << " attempts left." << endl;
+
+            if (attempts == 0) {
+                cout << "Game over! The correct word was: " << secretWord << endl;
+            }
+        }
+    }
 }
+
+
 
 void GAMENUMBER3() {
     cout << "INPUT THE THIRD GAME HERE" << endl;
@@ -398,7 +448,7 @@ void mainMenu() {
             int miniGameChoice;
             while (true) {
                 cout << "1. Hangman" << endl;
-                cout << "2. GAMENUMBER2" << endl;
+                cout << "2. Wordle" << endl;
                 cout << "3. GAMENUMBER3" << endl;
                 cout << "4. Back to Main Menu" << endl;
 
@@ -407,7 +457,7 @@ void mainMenu() {
                 if (miniGameChoice == 1) {
                     mainMenuHangman();
                 } else if (miniGameChoice == 2) {
-                    GAMENUMBER2();
+                    playWordle();
                 } else if (miniGameChoice == 3) {
                     GAMENUMBER3();
                 } else if (miniGameChoice == 4) {
