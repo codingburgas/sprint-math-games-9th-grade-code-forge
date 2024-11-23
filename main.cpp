@@ -176,15 +176,25 @@ void playHangman(int maxAttempts, const vector<string>& wordList) {
         }
 
         if (allGuessed) {
-            cout << "Congratulations! You've guessed the word: " << word << endl;
+             cout << "                                     ┌──────────────────────────── ⋆⋅☆⋅⋆ ──────────────────────────────┐                    " << endl;
+            cout << "                                                                                                                    " << endl;
+            cout << "                    ╒═══════════════════════════════════════════════════════════════════════════════════════════════╕       " << endl;
+            cout << "                                         Congratulations! You've guessed the word: " << word << "!!" << endl;
+            cout << "                    ╘═══════════════════════════════════════════════════════════════════════════════════════════════╛        " << endl;
+            cout << "                                                                                                                     " << endl;
+            cout << "                                     └──────────────────────────── ⋆⋅☆⋅⋆ ──────────────────────────────┘                                             " << endl;
             break;
         }
     }
 
     if (wrongAttempts == maxAttempts) {
         displayHangman(wrongAttempts);
-        cout << "You've been hanged!" << endl;
-        cout << "The word was: " << word << endl;
+                                        cout << "                    ╒═══════════════════════════════════════════════════════════════════════════════════════════════╕       " << endl;
+                                        cout << "                                                                                                                    " << endl;
+        cout << "                                                                           You've been hanged! Better luck next time!!!" << endl;
+        cout << "                                                                                       The word was: " << word << endl;
+                                        cout << "                                                                                                                     " << endl;
+                    cout << "                                        ╘═══════════════════════════════════════════════════════════════════════════════════════════════╛        " << endl;
     }
 }
 
@@ -255,7 +265,11 @@ void mainMenuHangman() {
                 } else if (choiceHangman == 4) {
                     break;
                 } else {
-                    cout << "Invalid choice. Please select again" << endl;
+                                cout << "                    ╒═══════════════════════════════════════════════════════════════════════════════════════════════╕       " << endl;
+            cout << "                                                                                                                    " << endl;
+                    cout << "                                                     !!!Invalid choice. Please select again!!!" << endl;
+                    cout << "                                                                                                                     " << endl;
+            cout << "                                        ╘═══════════════════════════════════════════════════════════════════════════════════════════════╛        " << endl;
                 }
             }
         } else if (mainChoice == 2) {
@@ -311,7 +325,9 @@ void mainMenuHangman() {
             cout << "Exiting the game. Goodbye!" << endl;
             break; // Exit the program
         } else {
-            cout << "Invalid choice. Please try again." << endl;
+            cout << "                                     ┌──────────────────────────── ⋆⋅☆⋅⋆ ──────────────────────────────┐                    " << endl;
+            cout << "                                              !!!Invalid choice. Please try again!!!" << endl;
+            cout << "                                     └──────────────────────────── ⋆⋅☆⋅⋆ ──────────────────────────────┘                                             " << endl;
         }
     }
 }
@@ -365,14 +381,18 @@ void mainMenu() {
                 } else if (miniGameChoice == 4) {
                     break;
                 } else {
-                    cout << "Invalid choice. Please try again." << endl;
+            cout << "                                     ┌──────────────────────────── ⋆⋅☆⋅⋆ ──────────────────────────────┐                    " << endl;
+            cout << "                                              !!!Invalid choice. Please try again!!!" << endl;
+            cout << "                                     └──────────────────────────── ⋆⋅☆⋅⋆ ──────────────────────────────┘                                             " << endl;
                 }
             }
         } else if (choice == 2) {
             cout << "Thank you for playing!" << endl;
             break;
         } else {
-            cout << "Invalid choice. Please try again." << endl;
+            cout << "                                     ┌──────────────────────────── ⋆⋅☆⋅⋆ ──────────────────────────────┐                    " << endl;
+            cout << "                                              !!!Invalid choice. Please try again!!!" << endl;
+            cout << "                                     └──────────────────────────── ⋆⋅☆⋅⋆ ──────────────────────────────┘                                             " << endl;
         }
     }
 }
