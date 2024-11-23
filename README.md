@@ -1,12 +1,12 @@
 ## About 
-This is our project where we made some games to learn math and practise your english using a game named "Hangman".
+We are CodeForge, this is our project where we made some games to learn more about math and practice your english using various games like "Hangman", "Word Scramble" and so on! 
 
 
 ## Authors
-- [@BMGeorgiev23](https://github.com/BMGeorgiev23) - Scrum trainer
-- [@KGDaradjanov23](https://github.com/KGDaradjanov) - Frontend developer
-- [@nhdimitrov23](https://github.com/nhdimitrov23) - Backend developer
-- [@HAGrozdev23](https://github.com/Hristiyan1423) - Desginer
+- [@BMGeorgiev23](https://github.com/BMGeorgiev23) - Scrum Trainer
+- [@KGDaradjanov23](https://github.com/KGDaradjanov) - Frontend Developer
+- [@nhdimitrov23](https://github.com/nhdimitrov23) - Backend Developer
+- [@HAGrozdev23](https://github.com/Hristiyan1423) - Designer
 
 ## Documentation (soon to be included)
 - [Presentation]()
