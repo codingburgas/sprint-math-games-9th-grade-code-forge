@@ -1,5 +1,5 @@
 ## About
-We are CodeForge, this is our project where we made games to help you learn more about math and practice your English skills using various games like "Hangman", "Wordle", and so on!
+CodeForge is a project focused on developing interactive games to enhance your math and English skills. Through engaging games like Hangman, Wordle, and more, we provide a fun and effective way to learn and practice.
 
 ## Game Descriptions
 ### 1. Hangman
@@ -13,7 +13,7 @@ We are CodeForge, this is our project where we made games to help you learn more
 * The `_` signifies that the letter is not included in the word.
 * Correctly guessed letters in the correct position remain visible in the word.
 
-## Authors
+## Our Team
 - [@BMGeorgiev23](https://github.com/BMGeorgiev23) - Scrum Trainer
 - [@KGDaradjanov23](https://github.com/KGDaradjanov) - Frontend Developer
 - [@nhdimitrov23](https://github.com/nhdimitrov23) - Backend Developer
