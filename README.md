@@ -20,7 +20,7 @@ We are CodeForge, this is our project where we made games to help you learn more
 - [@HAGrozdev23](https://github.com/Hristiyan1423) - Designer
 
 ## Documentation (soon to be included)
-- [Presentation]()
+- [Presentation](./Documents/Code_forge_presentation.pptx)
 - [Documentation]()
 
 ## Tools Used
