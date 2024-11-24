@@ -1,5 +1,6 @@
 ## About
 CodeForge is a project focused on developing interactive games to enhance your math and English skills. Through engaging games like Hangman, Wordle, and more, we provide a fun and effective way to learn and practice.
+<img src="logo/CodeForge.png" alt="CodeForge Logo">
 
 ## Game Descriptions
 ### 1. Hangman
@@ -29,4 +30,10 @@ CodeForge is a project focused on developing interactive games to enhance your m
 - [Documentation]()
 
 ## Tools Used
-<img src="https://icons.iconarchive.com/icons/arturo-wibawa/akar/48/github-icon.png" alt="Github" width="48"> <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VS Code" width="48"> <img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/48/Microsoft-Visual-Studio-icon.png" alt="Visual Studio" width="48"> <img src="https://icons.iconarchive.com/icons/bootstrap/bootstrap/48/Bootstrap-microsoft-teams-icon.png" alt="MS Teams" width="48"> <img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="PowerPoint" width="48"> <img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="MS Word" width="48">
+<img src="images/Github.png" alt="Github" width="48" height="48"> <img src="images/VScode.png" alt="VS Code" width="48" height="48"> <img src="images/VisualStudio.png" alt="Visual Studio" width="48" height="48"> <img src="images/MicrosoftTeams.png" alt="MS Teams" width="48" height="48"> <img src="images/PowerPoint.png" alt="PowerPoint" width="48" height="48"> <img src="images/Word.png" alt="MS Word" width="48" height="48">
+
+### Download
+To download our project, clone the repository using the following command:
+
+```bash
+git clone https://github.com/codingburgas/sprint-math-games-9th-grade-code-forge.git
