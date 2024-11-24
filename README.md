@@ -24,7 +24,7 @@ CodeForge is a project focused on developing interactive games to enhance your m
 - [@nhdimitrov23](https://github.com/nhdimitrov23) - Backend Developer
 - [@HAGrozdev23](https://github.com/Hristiyan1423) - Designer
 
-## Documentation (soon to be included)
+## Documentation
 - [Presentation](./Documents/Code_forge_presentation.pptx)
 - [Documentation](./Documents/Word_documentation_code_forge.docx)
 
