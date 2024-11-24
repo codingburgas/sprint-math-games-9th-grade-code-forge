@@ -13,6 +13,11 @@ CodeForge is a project focused on developing interactive games to enhance your m
 * The `_` signifies that the letter is not included in the word.
 * Correctly guessed letters in the correct position remain visible in the word.
 
+### 3. Word Scramble
+* You will be given a scrambled word to guess.
+* You have a limited number of incorrect guesses based on difficulty.
+* The game ends when you guess the word or run out of attempts.
+
 ## Our Team
 - [@BMGeorgiev23](https://github.com/BMGeorgiev23) - Scrum Trainer
 - [@KGDaradjanov23](https://github.com/KGDaradjanov) - Frontend Developer
@@ -25,4 +30,3 @@ CodeForge is a project focused on developing interactive games to enhance your m
 
 ## Tools Used
 <img src="https://icons.iconarchive.com/icons/arturo-wibawa/akar/48/github-icon.png" alt="Github" width="48"> <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VS Code" width="48"> <img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/48/Microsoft-Visual-Studio-icon.png" alt="Visual Studio" width="48"> <img src="https://icons.iconarchive.com/icons/bootstrap/bootstrap/48/Bootstrap-microsoft-teams-icon.png" alt="MS Teams" width="48"> <img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="PowerPoint" width="48"> <img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="MS Word" width="48">
-
