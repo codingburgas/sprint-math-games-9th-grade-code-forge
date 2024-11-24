@@ -305,7 +305,6 @@ void mainMenuHangman() {
         cout << "                                                                                                                                          " << endl;
         cout << "                                                                    WELCOME TO HANGMAN! CHOOSE ONE OF THE FOLLOWING:                                         " << endl;
         cout << "                                                                                                                                           " << endl;
-        cout << "                                                                                                                                           " << endl;
         cout << "                                                                                                                                         " << endl;
         cout << "                                                                                                                                         " << endl;
         cout << "                                                                                       1. PLAY                                                               " << endl;
@@ -315,7 +314,6 @@ void mainMenuHangman() {
         cout << "                                                                               ________________________                                                                            " << endl;
         cout << "                                                                                                                                                           " << endl;
         cout << "                                                                               3. BACK TO GAME SELECTION                                                        " << endl;
-        cout << "                                                                                                                                         " << endl;
         cout << "                                                                                                                                         " << endl;
         cout << "                                                                                                                                         " << endl;
         cout << "                                                                                                                                         " << endl;
@@ -477,6 +475,13 @@ void playWordle(int attempts) {
 
 void wordleDifficultyMenu() {
     while (true) {
+        cout << "                                                                                                                     " << endl;
+        cout << "                                                                                                                     " << endl;
+        cout << "                                                                                                                     " << endl;
+        cout << "                                                                                                                     " << endl;
+        cout << "                                                                                                                     " << endl;
+        cout << "                                                                                                                     " << endl;
+        cout << "                                                                                                                     " << endl;
         cout << "Choose difficulty level for Wordle:" << endl;
         cout << "1. Easy (6 attempts)" << endl;
         cout << "2. Medium (5 attempts)" << endl;
@@ -502,10 +507,49 @@ void wordleDifficultyMenu() {
 
 void wordleMenu() {
     while (true) {
-        cout << "Welcome to Wordle! Choose one of the following:" << endl;
-        cout << "1. Play" << endl;
-        cout << "2. Rules" << endl;
-        cout << "3. Back to Game Selection" << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                ██     ██  ██████  ██████  ██████  ██      ███████                                   " << endl;
+        cout << "                                                                ██     ██ ██    ██ ██   ██ ██   ██ ██      ██                                        " << endl;
+        cout << "                                                                ██  █  ██ ██    ██ ██████  ██   ██ ██      █████                                     " << endl;
+        cout << "                                                                ██ ███ ██ ██    ██ ██   ██ ██   ██ ██      ██                                        " << endl;
+        cout << "                                                                 ███ ███   ██████  ██   ██ ██████  ███████ ███████                                   " << endl;
+        cout << "                                   ╚══════════════════════════════════════════════════════════════════════════════════════════════════════════╝      " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                   ╔═══════════════════════════════════《✧》════════════════════════════════════╗                    " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                 WELCOME TO WORDLE! CHOOSE ONE OF THE FOLLOWING                                      " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                     1. Play                                                          " << endl;
+        cout << "                                                                               ____________________                                                  " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                 2. View Rules                                                       " << endl;
+        cout << "                                                                           ____________________________                                              " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                            3. Back to Game Selection                                                " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                  ╚════════════════════════════════════《✧》════════════════════════════════════╝                    " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        cout << "                                                                                                                                                     " << endl;
+        
 
         int choice;
         cin >> choice;
@@ -513,13 +557,46 @@ void wordleMenu() {
         if (choice == 1) {
             wordleDifficultyMenu(); // Go to difficulty selection
         } else if (choice == 2) {
-            cout << "Rules of Wordle:" << endl;
-            cout << "1. Guess the 5-letter word." << endl;
-           cout << "2. You have a limited number of attempts based on difficulty." << endl;
-            cout << "3. Correct letters in the correct position will be shown as is." << endl;
-            cout << "4. Correct letters in the wrong position will be indicated with '*'" << endl;
-            cout << "5. Incorrect letters will be shown as '_'." << endl;
-            cout << "Press 0 to return to the Wordle menu." << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                    ┌──────────────────────────── ⋆⋅☆⋅⋆ ──────────────────────────────┐                               " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                    ╒═══════════════════════════════════════════════════════════════════════════════════════════════╕                " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                           RULES OF WORDLE                                                           " << endl;
+             cout << "                                                                                                                                                    " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                   1. Guess the 5-letter word.                                                       " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                   2. You have a limited number of attempts based on difficulty.                                       " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                 3. Correct letters in the correct position will be shown as it is.                                   " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                 4. Correct letters in the wrong position will be indicated with '*'                                  " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                             5. Incorrect letters will be shown as '_'.                                               " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                Press 0 to return to the Wordle menu.                                                 " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                      black ---> _ * a _ _                                                                                  " << endl;
+            cout << "                                                         EXAMPLE:     apple ---> * * * _ *                                                                                        " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                    ╘═══════════════════════════════════════════════════════════════════════════════════════════════╛                " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                   └───────────────────────────── ⋆⋅☆⋅⋆ ─────────────────────────────┘                                " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                                                                                                     " << endl;
+            cout << "                                                                                                                                                     " << endl;
 
             int returnToMenu;
             cin >> returnToMenu;
@@ -624,34 +701,34 @@ void WordScrambleDifficulty();
 void displayWordScrambleRules();
 void wordScrambleMenu() {
     while (true) {
-        cout << "                                                    ██     ██  ██████  ██████  ██████      ███████  ██████ ██████   █████  ███    ███ ██████  ██      ███████        " << endl;
-        cout << "                                                    ██     ██ ██    ██ ██   ██ ██   ██     ██      ██      ██   ██ ██   ██ ████  ████ ██   ██ ██      ██             " << endl;
+        cout << "                                                    ██     ██  ██████  ██████  ██████      ███████  ██████ ██████   █████  ███    ███ ██████  ██      ███████         " << endl;
+        cout << "                                                    ██     ██ ██    ██ ██   ██ ██   ██     ██      ██      ██   ██ ██   ██ ████  ████ ██   ██ ██      ██              " << endl;
         cout << "                                                    ██  █  ██ ██    ██ ██████  ██   ██     ███████ ██      ██████  ███████ ██ ████ ██ ██████  ██      █████           " << endl;
         cout << "                                                    ██ ███ ██ ██    ██ ██   ██ ██   ██          ██ ██      ██   ██ ██   ██ ██  ██  ██ ██   ██ ██      ██              " << endl;
         cout << "                                                     ███ ███   ██████  ██   ██ ██████      ███████  ██████ ██   ██ ██   ██ ██      ██ ██████  ███████ ███████         " << endl;
-        cout << "                                                                                                                    " << endl;
+        cout << "                                                                                                                                                                      " << endl;
         cout << "                                       ╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝                                                                " << endl;
-        cout << "                                                                                                                    " << endl;
-        cout << "                                                                ╔═══════════════════════════════════《✧》════════════════════════════════════╗                                   " << endl;
-        cout << "                                                                                                                    " << endl;
-        cout << "                                                                             WELCOME TO WORD SCRAMBLE! CHOOSE ONE OF THE FOLLOWING:                                                        " << endl;
-        cout << "                                                                                                                    " << endl;
-        cout << "                                                                                                                    " << endl;
-        cout << "                                                                                                                    " << endl;
-        cout << "                                                                                              1. Play the game" << endl;
-        cout << "                                                                                           __________________________                                             " << endl;
-        cout << "                                                                                                                    " << endl;
-        cout << "                                                                                                2. View rules" << endl;
-        cout << "                                                                                         ______________________________                                                " << endl;
-        cout << "                                                                                                                                                        " << endl;
-        cout << "                                                                                            3. Back to Main Menu" << endl;
-        cout << "                                                                                                                    " << endl;
-        cout << "                                                                                                                                      " << endl;
-        cout << "                                                                ╚════════════════════════════════════《✧》═══════════════════════════════════╝                            " << endl;
-        cout << "                                                                                                                    " << endl;
-        cout << "                                                                                                                    " << endl;
-        cout << "                                                                                                                    " << endl;
-        cout << "                                                                                                                    " << endl;
+        cout << "                                                                                                                                                                      " << endl;
+        cout << "                                                                ╔═══════════════════════════════════《✧》════════════════════════════════════╗                        " << endl;
+        cout << "                                                                                                                                                                      " << endl;
+        cout << "                                                                             WELCOME TO WORD SCRAMBLE! CHOOSE ONE OF THE FOLLOWING:                                   " << endl;
+        cout << "                                                                                                                                                                      " << endl;
+        cout << "                                                                                                                                                                      " << endl;
+        cout << "                                                                                                                                                                      " << endl;
+        cout << "                                                                                              1. Play the game                                                        " << endl;
+        cout << "                                                                                           __________________________                                                 " << endl;
+        cout << "                                                                                                                                                                      " << endl;
+        cout << "                                                                                                2. View rules                                                         " << endl;
+        cout << "                                                                                         ______________________________                                               " << endl;
+        cout << "                                                                                                                                                                      " << endl;
+        cout << "                                                                                            3. Back to Game Selection                                                 " << endl;
+        cout << "                                                                                                                                                                      " << endl;
+        cout << "                                                                                                                                                                      " << endl;
+        cout << "                                                                ╚════════════════════════════════════《✧》═══════════════════════════════════╝                        " << endl;
+        cout << "                                                                                                                                                                      " << endl;
+        cout << "                                                                                                                                                                      " << endl;
+        cout << "                                                                                                                                                                      " << endl;
+        cout << "                                                                                                                                                                      " << endl;
 
         int choice;
         cout << "Enter your choice: ";
