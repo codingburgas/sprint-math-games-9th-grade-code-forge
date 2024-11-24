@@ -28,7 +28,7 @@ void displayHangman(int wrongAttempts) {
             cout << "                                                                                                           " << endl; 
             cout << "                                                                                                           " << endl;
             cout << "                                                                                                           " << endl;
-            cout << "                                       ╚════════════════════════════════《✧》════════════════════════════╝" << endl;
+            
         } else if (wrongAttempts == 1) { 
             cout << "                                                                                                           " << endl;
             cout << "                                                                                                           " << endl;
@@ -48,7 +48,6 @@ void displayHangman(int wrongAttempts) {
             cout << "                                                                                                           " << endl; 
             cout << "                                                                                                           " << endl;
             cout << "                                                                                                           " << endl;
-            cout << "                                       ╚════════════════════════════════《✧》════════════════════════════╝" << endl;  
         } 
 else if (wrongAttempts == 2) { 
             cout << "                                                                                                           " << endl;
@@ -69,7 +68,6 @@ else if (wrongAttempts == 2) {
             cout << "                                                                                                           " << endl; 
             cout << "                                                                                                           " << endl;
             cout << "                                                                                                           " << endl;
-            cout << "                                       ╚════════════════════════════════《✧》════════════════════════════╝" << endl; 
         } 
 else if (wrongAttempts == 3) { 
             cout << "                                                                                                           " << endl;
@@ -90,7 +88,6 @@ else if (wrongAttempts == 3) {
             cout << "                                                                                                           " << endl; 
             cout << "                                                                                                           " << endl;
             cout << "                                                                                                           " << endl;
-            cout << "                                       ╚════════════════════════════════《✧》════════════════════════════╝" << endl; 
         } 
         else if (wrongAttempts == 4) { 
             cout << "                                                                                                           " << endl;
@@ -111,7 +108,6 @@ else if (wrongAttempts == 3) {
             cout << "                                                                                                           " << endl; 
             cout << "                                                                                                           " << endl;
             cout << "                                                                                                           " << endl;
-            cout << "                                       ╚════════════════════════════════《✧》════════════════════════════╝" << endl;
         } 
         else if (wrongAttempts == 5) { 
             cout << "                                                                                                           " << endl;
@@ -132,7 +128,6 @@ else if (wrongAttempts == 3) {
             cout << "                                                                                                           " << endl; 
             cout << "                                                                                                           " << endl;
             cout << "                                                                                                           " << endl;
-            cout << "                                       ╚════════════════════════════════《✧》════════════════════════════╝" << endl;
         } 
         else if (wrongAttempts == 6) { 
             cout << "                                                                                                           " << endl;
@@ -153,7 +148,6 @@ else if (wrongAttempts == 3) {
             cout << "                                                                                                           " << endl; 
             cout << "                                                                                                           " << endl;
             cout << "                                                                                                           " << endl;
-            cout << "                                       ╚════════════════════════════════《✧》════════════════════════════╝" << endl;
         } 
         else if (wrongAttempts == 7) { 
             cout << "                                                                                                           " << endl;
@@ -174,7 +168,6 @@ else if (wrongAttempts == 3) {
             cout << "                                                                                                           " << endl; 
             cout << "                                                                                                           " << endl;
             cout << "                                                                                                           " << endl;
-            cout << "                                       ╚════════════════════════════════《✧》════════════════════════════╝" << endl; 
         } 
         else if (wrongAttempts == 8) { 
             cout << "                                                                                                           " << endl;
@@ -195,7 +188,6 @@ else if (wrongAttempts == 3) {
             cout << "                                                                                                           " << endl; 
             cout << "                                                                                                           " << endl;
             cout << "                                                                                                           " << endl;
-            cout << "                                       ╚════════════════════════════════《✧》════════════════════════════╝" << endl;
         }
 }
 
@@ -219,17 +211,22 @@ void playHangman(int maxAttempts, const vector<string>& wordList) {
 
     while (wrongAttempts < maxAttempts) {
         displayHangman(wrongAttempts);
-        displayWord(word, guessedLetters);
-
-        cout << "Guessed letters: ";
+        
+        cout << "                                                                 Guessed letters: ";
         for (char letter : guessedLetters) {
             cout << letter << " ";
         }
         cout << endl;
 
-        string input; // Change from char to string for input
-        cout << "Enter a letter: ";
+        cout << "                                                                    ";
+        displayWord(word, guessedLetters); // Adjusted indentation here
+        cout << "                                                                  Enter a letter.                        " << endl;
+        cout << "                                                                                                           " << endl;
+        cout << "                                      ╚════════════════════════════════《✧》════════════════════════════╝" << endl;
+
+        string input;
         cin >> input;
+       
 
         // Check if the input is more than one character
         if (input.length() != 1) {
