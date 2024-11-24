@@ -1,10 +1,6 @@
 ## About
 CodeForge is a project focused on developing interactive games to enhance your math and English skills. Through engaging games like Hangman, Wordle, and more, we provide a fun and effective way to learn and practice.
 <img src="logo/CodeForge.png" alt="CodeForge Logo">
-<<<<<<< HEAD
-
-=======
->>>>>>> 4ddbdd70095ec4d95cb172ff9014bd1475f7c96d
 ## Game Descriptions
 ### 1. Hangman
 * Input a single letter at a time to guess the word.
