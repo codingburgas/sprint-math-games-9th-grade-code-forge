@@ -26,7 +26,7 @@ CodeForge is a project focused on developing interactive games to enhance your m
 
 ## Documentation (soon to be included)
 - [Presentation](./Documents/Code_forge_presentation.pptx)
-- [Documentation]()
+- [Documentation](./Documents/Word_documentation_code_forge.docx)
 
 ## Tools Used
 <img src="images/Github.png" alt="Github" width="48" height="48"> <img src="images/VScode.png" alt="VS Code" width="48" height="48"> <img src="images/VisualStudio.png" alt="Visual Studio" width="48" height="48"> <img src="images/MicrosoftTeams.png" alt="MS Teams" width="48" height="48"> <img src="images/PowerPoint.png" alt="PowerPoint" width="48" height="48"> <img src="images/Word.png" alt="MS Word" width="48" height="48">
