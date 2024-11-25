@@ -569,17 +569,17 @@ void playWordle(int attempts) {
     cout << "                                                                                                                                                     " << endl;
     cout << "                                                                                                                                                     " << endl;
     cout << "                                                                                                                                                     " << endl;
-    cout << "                                                         ╒═══════════════════════════════════════════════════════════════════════════════════════════════╕  \033[0m      " << endl;
+    cout << "                                                        \033[38;5;120m ╒═══════════════════════════════════════════════════════════════════════════════════════════════╕  \033[0m      " << endl;
     cout << "                                                                                                                                                     " << endl;
     cout << "                                                                                                                                                     " << endl;
-    cout << "                                                                        ╔══════════════════════════════《✧ 》══════════════════════════════╗   \033[0m " << endl;
+    cout << "                                                                    \033[38;5;120m    ╔══════════════════════════════《✧ 》══════════════════════════════╗   \033[0m " << endl;
     cout << "                                                                                                                                                     " << endl;
-    cout << "                                                                                 Guess the 5-letter word. You have " << attempts << " attempts.\033[0m " << endl;
+    cout << "                                                                           \033[38;5;229m      Guess the 5-letter word. You have " << attempts << " attempts.\033[0m " << endl;
     cout << "                                                                                                                                                     " << endl;
-    cout << "                                                                        ╚══════════════════════════════《✧ 》══════════════════════════════╝\033[0m " << endl;
+    cout << "                                                                     \033[38;5;120m   ╚══════════════════════════════《✧ 》══════════════════════════════╝\033[0m " << endl;
     cout << "                                                                                                                                                     " << endl;
     cout << "                                                                                                                                                     " << endl;
-    cout << "                                                         ╘═══════════════════════════════════════════════════════════════════════════════════════════════╛\033[0m " << endl;
+    cout << "                                                        \033[38;5;120m ╘═══════════════════════════════════════════════════════════════════════════════════════════════╛\033[0m " << endl;
     cout << "                                                                                                                                                     " << endl;
 
     // Main game loop
@@ -599,8 +599,32 @@ void playWordle(int attempts) {
         }
 
         if (guess == secretWord) {
-            cout << "Congratulations! You've guessed the word correctly! \033[0m " << endl;
-            break;
+            system("CLS");
+            cout << "                                                                                                                                        " << endl;
+            cout << "                                                                                                                                        " << endl;
+            cout << "                                                                                                                                        " << endl;
+            cout << "                                                                                                                                        " << endl;
+            cout << "                                                                                                                                        " << endl;
+            cout << "                                                                                                                                        " << endl;
+            cout << "                                                                                                                                        " << endl;
+            cout << "                                                 \033[38;5;229m    ╒═════════════════════════════════════════════════════════════════════════════════════════════════════════════════╕" << endl;
+            cout << "                                                                                                                                        " << endl;
+            cout << "                                                                                                                                        " << endl;
+            cout << "                                                                 \033[38;5;229m               Congratulations! You've guessed the word correctly! \033[0m " << endl;
+            cout << "                                                            \033[38;5;229m        Would you like to play again? Enter 1 for Yes, 2 to go back to the Wordle menu: \033[0m " << endl;
+            cout << "                                                                                                                                        " << endl;
+            cout << "                                                                                                                                        " << endl;
+            cout << "                                                     \033[38;5;229m╘═════════════════════════════════════════════════════════════════════════════════════════════════════════════════╛\033[0m " << endl;
+            int choice;
+                cin >> choice;
+                if (choice == 1) {
+                    playWordle(6); // Restart the game with 6 attempts
+                } else if (choice == 2) {
+                    return; // Go back to the Wordle menu
+                } else {
+                    cout << "Invalid choice! Returning to the Wordle menu." << endl;
+                    return; // Go back to the Wordle menu
+                }
         } else {
             // provide feedback on the guess
             cout << "                                                                                                     "; 
@@ -617,9 +641,9 @@ void playWordle(int attempts) {
 
             attempts--;
             cout << "                                                                                                                                        " << endl;
-            cout << "                                                                                         ╔═════════════════════════════════╗\033[0m " << endl;
-            cout << "                                                                                              You have " << attempts << " attempts left.\033[0m " << endl;
-            cout << "                                                                                         ╘═════════════════════════════════╛\033[0m " << endl;
+            cout << "                                                                                 \033[38;5;229m        ╔═════════════════════════════════╗\033[0m " << endl;
+            cout << "                                                                                  \033[38;5;229m            You have " << attempts << " attempts left.\033[0m " << endl;
+            cout << "                                                                                \033[38;5;229m         ╘═════════════════════════════════╛\033[0m " << endl;
             cout << "                                                                                                                                        " << endl;
 
             if (attempts == 0) {
@@ -634,17 +658,17 @@ void playWordle(int attempts) {
                 cout << "                                                                                                                                        " << endl;
                 cout << "                                                                                                                                        " << endl;
                 cout << "                                                                                                                                        " << endl;
-                cout << "                                                     ╒═════════════════════════════════════════════════════════════════════════════════════════════════════════════════╕\033[0m " << endl;
+                cout << "                                                 \033[38;5;229m    ╒═════════════════════════════════════════════════════════════════════════════════════════════════════════════════╕\033[0m " << endl;
                 cout << "                                                                                                                                        " << endl;
-                cout << "                                                            ╔═══════════════════════════════════════════════《✧ 》══════════════════════════════════════════════╗\033[0m " << endl;
+                cout << "                                                        \033[38;5;229m    ╔═══════════════════════════════════════════════《✧ 》══════════════════════════════════════════════╗\033[0m " << endl;
                 cout << "                                                                                                                                        " << endl;
-                cout << "                                                                                         Game over! The correct word was: " << secretWord << "\033[0m " << endl;
+                cout << "                                                                          \033[38;5;229m               Game over! The correct word was: " << secretWord << "\033[0m " << endl;
                 cout << "                                                                                                                                        " << endl;
-                cout << "                                                                     Would you like to play again? Enter 1 for Yes, 2 to go back to the Wordle menu: \033[0m ";
+                cout << "                                                                \033[38;5;229m     Would you like to play again? Enter 1 for Yes, 2 to go back to the Wordle menu: \033[0m " << endl;
                 cout << "                                                                                                                                        " << endl;
-                cout << "                                                            ╚═══════════════════════════════════════════════《✧ 》══════════════════════════════════════════════╝ \033[0m " << endl;
+                cout << "                                                           \033[38;5;229m ╚═══════════════════════════════════════════════《✧ 》══════════════════════════════════════════════╝ \033[0m " << endl;
                 cout << "                                                                                                                                        " << endl;
-                cout << "                                                     ╘═════════════════════════════════════════════════════════════════════════════════════════════════════════════════╛\033[0m " << endl;
+                cout << "                                                     \033[38;5;229m╘═════════════════════════════════════════════════════════════════════════════════════════════════════════════════╛\033[0m " << endl;
                 int choice;
                 cin >> choice;
                 if (choice == 1) {
@@ -674,28 +698,28 @@ void wordleDifficultyMenu() {
     cout << "                                                                                                                                                               " << endl;
     cout << "                                                                                                                                                               " << endl;
     cout << "                                                                                                                                                               " << endl;
-    cout << "                                                                            ╔═════════════════════════════《✧ 》════════════════════════════╗            \033[0m                              " << endl;
+    cout << "                                                                          \033[38;5;27m  ╔═════════════════════════════《✧ 》════════════════════════════╗            \033[0m                              " << endl;
     cout << "                                                                                                                                                                      " << endl;
-    cout << "                                                          ╒═════════════════════════════════════════════════════════════════════════════════════════════════╕       \033[0m                " << endl;
+    cout << "                                                        \033[38;5;27m  ╒═════════════════════════════════════════════════════════════════════════════════════════════════╕       \033[0m                " << endl;
     cout << "                                                                                                                                                                      " << endl;
-    cout << "                                                                                          CHOOSE DIFFICULTY LEVEL FOR WORDLE \033[0m " << endl;
-    cout << "                                                                                                                                                                      " << endl;
-    cout << "                                                                                                                                                                      " << endl;
-    cout << "                                                                                                  1. Easy (6 attempts) \033[0m " << endl;
-    cout << "                                                                                              ___________________________                                                     " << endl;
-    cout << "                                                                                                                                                                      " << endl;
-    cout << "                                                                                                 2. Medium (5 attempts) \033[0m " << endl;
-    cout << "                                                                                             _____________________________                                                           " << endl;
-    cout << "                                                                                                                                                                      " << endl;
-    cout << "                                                                                                 3. Hard (4 attempts) \033[0m " << endl;
-    cout << "                                                                                              ___________________________                                                           " << endl;
-    cout << "                                                                                                                                                                      " << endl;
-    cout << "                                                                                             4. Back to Word Scramble Menu \033[0m " << endl;
+    cout << "                                                                                    \033[38;5;159m      CHOOSE DIFFICULTY LEVEL FOR WORDLE \033[0m " << endl;
     cout << "                                                                                                                                                                      " << endl;
     cout << "                                                                                                                                                                      " << endl;
-    cout << "                                                          ╘═════════════════════════════════════════════════════════════════════════════════════════════════╛     \033[0m                  " << endl;
+    cout << "                                                                                         \033[38;5;159m         1. Easy (6 attempts) \033[0m " << endl;
+    cout << "                                                                                             \033[38;5;27m  ___________________________      \033[0m                                               " << endl;
     cout << "                                                                                                                                                                      " << endl;
-    cout << "                                                                            ╚════════════════════════════《✧ 》═════════════════════════════╝  \033[0m                                    " << endl;
+    cout << "                                                                                         \033[38;5;159m        2. Medium (5 attempts) \033[0m " << endl;
+    cout << "                                                                                          \033[38;5;27m    _____________________________   \033[0m                                                        " << endl;
+    cout << "                                                                                                                                                                      " << endl;
+    cout << "                                                                                         \033[38;5;159m         3. Hard (4 attempts) \033[0m " << endl;
+    cout << "                                                                                            \033[38;5;27m   ___________________________    \033[0m                                                       " << endl;
+    cout << "                                                                                                                                                                      " << endl;
+    cout << "                                                                                        \033[38;5;159m         4. Back to Wordle Menu \033[0m " << endl;
+    cout << "                                                                                                                                                                      " << endl;
+    cout << "                                                                                                                                                                      " << endl;
+    cout << "                                                        \033[38;5;27m  ╘═════════════════════════════════════════════════════════════════════════════════════════════════╛     \033[0m                  " << endl;
+    cout << "                                                                                                                                                                      " << endl;
+    cout << "                                                                       \033[38;5;27m     ╚════════════════════════════《✧ 》═════════════════════════════╝  \033[0m                                    " << endl;
     cout << "                                                                                                                                                               " << endl;
         cout << "                                                                                                                                                               " << endl;
         cout << "                                                                                                                                                               " << endl;
